@@ -7,6 +7,7 @@ import About from './About';
 import Education from './Education';
 import Skill from './Skill';
 import Contact from './Contact';
+import Workexp from './Workexp';
 function App() {
   return (
     <Router>
@@ -19,6 +20,9 @@ function App() {
       </Route>
       <Route exact path="/About">
         <About/>
+      </Route>
+      <Route exact path="/Workexp">
+        <Workexp/>
       </Route>
       <Route exact path="/education">
         <Education/>
